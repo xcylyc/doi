@@ -40,7 +40,7 @@ public class crossrefDoi {
 		FileWriter writer = new FileWriter(file, true);
 		boolean bo = true;
 		while (bo) {
-			String json = ""; 
+			String json =""; 
 			try {
 				if (nextcursor.indexOf("+") > -1 || nextcursor.indexOf(" ") > -1) {
 					//这句话比较重要/一定要替换。不然报游标不对

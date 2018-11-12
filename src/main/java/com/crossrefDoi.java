@@ -36,6 +36,7 @@ public class crossrefDoi {
 		String urls = "https://api.crossref.org/works";
 		String nextcursor = "*";
 		String lsnextcursor = "";
+		//保存的路径
 		File file = new File("D:\\crossref\\" + dt);
 		FileWriter writer = new FileWriter(file, true);
 		boolean bo = true;

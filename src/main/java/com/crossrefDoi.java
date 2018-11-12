@@ -37,7 +37,7 @@ public class crossrefDoi {
 		String nextcursor = "*";
 		String lsnextcursor = "";
 		//保存的路径
-		File file = new File("D:\\crossref\\" + dt);
+		File file = new File("D:\\crossref\\" + dt); 
 		FileWriter writer = new FileWriter(file, true);
 		boolean bo = true;
 		while (bo) {
